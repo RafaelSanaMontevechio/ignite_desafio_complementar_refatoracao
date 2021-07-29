@@ -6,7 +6,7 @@ import { Container } from './styles';
 
 import api from '../../services/api';
 
-interface IFood {
+export interface IFood {
   id: number;
   name: string;
   image: string;
