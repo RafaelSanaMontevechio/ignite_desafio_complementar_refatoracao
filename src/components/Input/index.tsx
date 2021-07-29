@@ -6,7 +6,8 @@ import { Container } from './styles';
 
 interface InputProps {
   name: string;
-  icon: any;
+  icon?: any;
+  placeholder: string;
 }
 
 export function Input({ name, icon: Icon, ...rest }: InputProps) {
